@@ -1,0 +1,31 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{67FE620A-472C-82D2-A918-CAB09CA10FC9}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "DigitaizerRec",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "OculusVR",
+			"Enabled": false
+		},
+		{
+			"Name": "SteamVR",
+			"Enabled": false
+		},
+		{
+			"Name": "PerceptionNeuron",
+			"Enabled": true
+		},
+		{
+			"Name": "OptitrackNatnet",
+			"Enabled": true
+		}
+	]
+}
